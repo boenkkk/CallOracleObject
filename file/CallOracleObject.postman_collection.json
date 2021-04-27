@@ -1,0 +1,98 @@
+{
+	"info": {
+		"_postman_id": "70a33a1b-9786-4abb-a5d0-00633a1515c2",
+		"name": "CallOracleObject",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "tesQuery",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8089/test/tesQuery",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"test",
+						"tesQuery"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "tesObja",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tglAwal\": \"20201028\",\r\n    \"tglAkhir\": \"20201031\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8089/test/tesObja",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"test",
+						"tesObja"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "tesObjb",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8089/test/tesObjb",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"test",
+						"tesObjb"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "tesObjc",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8089/test/tesObjc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"test",
+						"tesObjc"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
